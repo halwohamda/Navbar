@@ -53,5 +53,9 @@ header{
 
 .nav-menu a:hover{
     background:#fff ;
+}
+.btn{
+    background: white;
+    color: brown;
     
 }
