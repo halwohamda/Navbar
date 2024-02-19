@@ -52,10 +52,21 @@ header{
 }
 
 .nav-menu a:hover{
-    background:#fff ;
+    color: white;
 }
-.btn{
+.content-btn{
     background: white;
     color: brown;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+.content-btn:hover{
+    cursor: pointer;
+    background:brown ;
+    color: wheat;
     
 }
