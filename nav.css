@@ -98,10 +98,9 @@ header{
 
 }
 .menu-icon .top{
-    transform: translate-(50%,-8%);
+    transform: translate-(-50%,-8%);
 
 }
-.menu-icon .middle{
-    transform: translate-(50%,-8%);
-    
+.menu-icon .end{
+    transform: translate-(-50%,-6%);     
 }
