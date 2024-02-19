@@ -30,6 +30,28 @@ header{
 .navbar{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+
+}
+.nav-menu ul{
+  list-style-type: none;
+
+}
+.nav-link{
+    display: inline-block;
+}
+
+.nav-link a{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px 10px;
+    color: wheat;
+    font-weight: 500;
+    transition: 0.3s ease-in-out ;
+}
+
+.nav-menu a:hover{
+    background:#fff ;
     
 }
