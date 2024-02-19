@@ -86,7 +86,7 @@ header{
 }
 .menu-icon span{
     background: white;
-      height: 2px;
+    height: 2px;
     width: 100%;
     display: block;
     border-radius: 4px;
@@ -98,9 +98,10 @@ header{
 
 }
 .menu-icon .top {
-    transform: translate(-50%,-8%);
+    transform: translate(-50%,-8px);
 
 }
+
 .menu-icon .end {
-    transform: translate(-50%,-6%);     
+    transform: translate(-50%,6px);     
 }
