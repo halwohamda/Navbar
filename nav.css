@@ -14,5 +14,22 @@ header{
 .main-header{
     display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
+      max-width: 1140px;
+      margin: 0 auto;
+      gap: 20px;
+      height: 100%;
+      position: relative;
+
+}
+
+.logo h2{
+    color: wheat;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
 }
