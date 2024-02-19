@@ -105,3 +105,6 @@ header{
 .menu-icon .end {
     transform: translate(-50%,6px);     
 }
+.active .top{
+    transform: translate(-50% -50%) rotate(-45deg);
+}
