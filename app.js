@@ -1,4 +1,4 @@
-const header = document.querySelector(".main-header")
+const header = document.querySelector(".main-header");
 // const togglebtn = document.querySelector(".menu-icon");
 
 
