@@ -74,6 +74,7 @@ header{
 /* toggle */
 .toggle{
     position: absolute;
+    display: none;
     right: 0;
 
 }
@@ -81,7 +82,7 @@ header{
     width: 20px;
     height: 20px;
    position: relative;
-   background: red;
+   cursor: pointer;
 
 }
 .menu-icon span{
@@ -94,6 +95,8 @@ header{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    transition: transform 0.5s, width 0.5s, opacity 0.5s;
+
 
 
 }
@@ -107,4 +110,61 @@ header{
 }
 .active .top{
     transform: translate(-50% -50%) rotate(-45deg);
+}
+.active .top{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+.active .end{
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.active .middle{
+    width: 0;
+    opacity: 0;
+
+}
+
+
+/*responsive*/
+@media (max-width:700px){
+    .toggle{
+        display: block;
+
+    }
+    .main-header{
+          padding: 0 30px ;
+          width: 100%;
+    }
+    .navbar{
+        visibility: hidden;
+        opacity: 0;
+
+    }
+    .active .navbar{
+        visibility: visible;
+        position: absolute;
+        opacity: 1;
+        top: 100%;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(2, 60, 60);
+        border-top:1px solid #393939 ;
+        padding: 30px;
+        padding-top: 10px;
+        transition: opacity 0.2s ease-in;
+
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-link a{
+        display:block ;
+        padding: 18px 0;
+
+    }
+
+    .nav-link{
+        display: block;
+    }
+
 }
