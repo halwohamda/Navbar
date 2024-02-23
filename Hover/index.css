@@ -22,7 +22,7 @@
     height: 100%;
     transform-style: preserve-3d;
 }
-/* .cube span{
+.cube span{
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@
     background: linear-gradient(#151515 , #00ce00);
     transform: rotateY(cal(90deg*var(--i))) translateZ(150px);
 
-} */
+}
 
 .top{
     position: absolute;
