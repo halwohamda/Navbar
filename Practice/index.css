@@ -46,12 +46,6 @@ nav a{
  cursor: pointer;
 }
 
-/* nav a:hover{
-    color: rgb(252, 181, 49);
-    cursor: pointer;
-} */
-
-
 nav span{
     background-color: orange;
     width: 100px;
