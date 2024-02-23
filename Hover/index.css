@@ -52,9 +52,9 @@
     background: #0f0;
     transform: translateZ(-380px);
     filter: blur(20px);
-    /* /* box-shadow: 0 0 120px rgb(0, 255, 0,0.2),
+    box-shadow: 0 0 120px rgb(0, 255, 0,0.2),
                 0 0 200px rgb(0, 255, 0,0.4),
                 0 0 300px rgb(0, 255, 0,0.6),
                 0 0 400px rgb(0, 255, 0,0.8),
-                0 0 500px rgb(0, 255, 0,1), */
-} */
+                0 0 500px rgb(0, 255, 0,1),
+}
