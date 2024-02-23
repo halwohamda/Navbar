@@ -1,0 +1,28 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.images{
+  transform: translateY(100px);
+
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+h2 span{
+    color: orange;
+    font-style: italic;
+}
+
