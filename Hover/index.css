@@ -1,4 +1,4 @@
-.cube{
+/* .cube{
     position: relative;
     width: 300px;
     height: 300px;
@@ -6,7 +6,7 @@
     transform: rotateX(-30deg);
     animation: animate 4s linear infinite;
 
-}
+} */
 @keyframes animate{
     0%{
         transform: rotateX(-30deg) rotateY(0deg) ;
