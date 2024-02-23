@@ -43,8 +43,8 @@
     transform: rotateX(90deg) translateZ(150px);
 }
 .top::before{
-    content: '';
-    position: absolute;
+    /* content: '';
+    position: absolute; */
     top: 0;
     left: 0;
     width: 300px;
