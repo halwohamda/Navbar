@@ -26,13 +26,23 @@ nav{
     outline: none;
     font-family: 12px;
     font-weight: 100;
-
+    transform: translateX(50%);
+    gap: 20px;
+    text-decoration: none;
+    color: white;
   
 
 }
 nav a{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
+ position: relative;
+ padding: 0 29px;
+ color: white;
+ text-decoration: none;
+ z-index: 1;
+ cursor: pointer;
+}
+
+nav a:hover{
+    color: rgb(252, 181, 49);
+    cursor: pointer;
 }
