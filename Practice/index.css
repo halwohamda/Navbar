@@ -6,6 +6,11 @@ body{
     padding: 0;
 
 }
+.container{
+    display: flex;
+
+
+}
 
 .logo{
     font-size: 30px;
@@ -27,7 +32,6 @@ nav{
     font-family: 12px;
     font-weight: 100;
     transform: translateX(50%);
-    gap: 20px;
     text-decoration: none;
     color: white;
   
