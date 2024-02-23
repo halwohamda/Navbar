@@ -35,27 +35,40 @@ nav{
 }
 nav a{
  position: relative;
- padding: 0 29px;
+ padding: 0 23px;
  color: white;
  text-decoration: none;
  z-index: 1;
  cursor: pointer;
 }
 
-nav a:hover{
+/* nav a:hover{
     color: rgb(252, 181, 49);
     cursor: pointer;
-}
+} */
 
 
 nav span{
-    background-color: aqua;
+    background-color: orange;
     width: 100px;
-    height: 100%;
+    height: 50%;
+
     top: 0;
     left: 0;
     transition: 0.5s;
-    /* position: absolute; */
+    position: absolute;
     border-radius: 10px;
+
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0px;
+
+}
+nav a:nth-child(2):hover~span{
+    left: 90px;
+}
+nav a:nth-child(3):hover~span{
+    left: 180px;
 
 }
