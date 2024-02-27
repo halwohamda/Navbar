@@ -149,11 +149,16 @@ img{
             
         }
         .search form input:last-child{
-            width: 10%;
-            height: 10px;
-          margin-top: 15px; 
-          transform: translateX(-12px);
-          padding: 10px 15px;
+            margin-top: 2px; 
+            padding: 6px;
+          transform: translateX(-26px);
+          outline: none;
+          border: none;
+          background-color: orange;
+          color: white;
+          border-radius: .25rem;
+
+         
 
         
         }
