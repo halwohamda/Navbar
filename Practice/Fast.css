@@ -11,6 +11,7 @@
 
 }
 .images img{
+    
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -25,4 +26,8 @@ h2 span{
     color: orange;
     font-style: italic;
 }
+.icon{
+    margin-left: 50px;
+    margin-top: 25px;
 
+}
