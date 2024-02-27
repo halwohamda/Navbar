@@ -133,16 +133,22 @@ img{
           color: white;
           border-radius: .70rem;
 
-         
-
-        
         }
         .socialmedia{
             list-style: none;
             outline: none;
             padding: 0 29px;
             gap: 30px;
-
+            cursor: pointer;
             display: flex;
+            
 
         }
+     
+      .socialmedia li a{
+        color: orange;
+ 
+      }
+      .socialmedia li a:hover{
+        color: white;
+      }
