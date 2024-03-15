@@ -43,7 +43,7 @@ body{
     left: 50%;
 }
 .slide .item:nth-child(5){
-    left: calc(50% , 220px);
+    left: calc(50% + 220px);
 }
 .slide .item:nth-child(3){
     left: 50%;
