@@ -39,10 +39,10 @@ body{
     width: 100%;
     height: 100%;
 }
-.slide .item:nth-child(3){
+.slide .item:nth-child(4){
     left: 50%;
 }
-.slide .item:nth-child(4){
+.slide .item:nth-child(5){
     left: calc(50% , 220px);
 }
 .slide .item:nth-child(3){
