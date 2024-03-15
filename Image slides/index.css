@@ -73,7 +73,7 @@ body{
    text-transform: uppercase;
    font-weight: bold;
    opacity: 0;
-   animation: animate;
+   animation: animate 1s ease-in-out 1s;
 }
 .content .des{
     margin-top:10px ;
