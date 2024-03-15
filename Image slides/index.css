@@ -78,5 +78,7 @@ body{
     margin-bottom: 20px;
 }
 .content button{
-    
+    padding: 10px 20px ;
+    border: none;
+    cursor: pointer;
 }
