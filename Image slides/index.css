@@ -65,6 +65,6 @@ body{
     display: none;
 }
 .slide .item:nth-child(2).content{
-    display: ;
+    display:block ;
 
 }
