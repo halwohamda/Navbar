@@ -40,5 +40,5 @@ body{
     height: 100%;
 }
 .slide .item:nth-child(3){
-    
+    left: 50%;
 }
