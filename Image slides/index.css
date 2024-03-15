@@ -22,4 +22,5 @@ body{
        height: 300px;
        position: absolute;
        top: 50%;
+       transform: translate(0 , -50%);
 }
