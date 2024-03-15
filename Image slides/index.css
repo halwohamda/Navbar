@@ -90,5 +90,9 @@ body{
     animation: animate 1s ease-in-out 1 forwards;
 }
 @keyframes animate{
+   form{
+    opacity: 0;
     
+   }
+
 }
