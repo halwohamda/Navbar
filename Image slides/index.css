@@ -23,4 +23,6 @@ body{
        position: absolute;
        top: 50%;
        transform: translate(0 , -50%);
+       border-radius: 20px;
+       box-shadow: 20px 50% #9090b4;
 }
