@@ -62,4 +62,5 @@ body{
     align-items: left;
     color: #fff;
     transform: translate( 0, -50%);
+    display: none;
 }
