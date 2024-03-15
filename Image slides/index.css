@@ -61,5 +61,5 @@ body{
     width: 300px;
     align-items: left;
     color: #fff;
-    
+    transform: translate( 0, -50%);
 }
