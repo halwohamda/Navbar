@@ -95,5 +95,9 @@ body{
     transform: translate(0 , 100px);
    filter:blur(33px)  ;
    }
+   to{
+    opacity: 1;
+    
+   }
 
 }
