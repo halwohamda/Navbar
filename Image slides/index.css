@@ -64,6 +64,7 @@ body{
     transform: translate( 0, -50%);
     display: none;
 }
-.slide .item:nth-child(2).text{
+.slide .item:nth-child(2).content{
+    display: ;
 
 }
