@@ -78,10 +78,14 @@ body{
 .content .des{
     margin-top:10px ;
     margin-bottom: 20px;
+    opacity: 0;
+    animation: animate 1s ease-in-out 1 forwards;
 }
 .content button{
     padding: 10px 20px ;
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    opacity: 0;
+    animation: animate 1s ease-in-out 1 forwards;
 }
