@@ -24,7 +24,7 @@ body{
        top: 50%;
        transform: translate(0 , -50%);
        border-radius: 20px;
-       box-shadow:0 20% 50% #9090b4;
+      box-shadow: 0 20% 50% rgb(39, 20, 20);
        background-position: 50% , 50%;
        background-size: cover;
        display: inline-block;
