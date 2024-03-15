@@ -48,7 +48,7 @@ body{
 .slide .item:nth-child(5){
     left: calc(50% + 440px);
 }
-.slide .item:nth-child(3){
+.slide .item:nth-child(n + 6){
     left: calc(50% + 440px);
 }
 
