@@ -18,5 +18,7 @@ body{
     box-shadow: 0 30px 50px #9090b4 ;
 }
 .container .slide .item{
-
+       width: 200px;
+       height: 600px;
+       position: absolute;
 }
