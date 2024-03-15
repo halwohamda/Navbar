@@ -54,3 +54,6 @@ body{
 }
 
 
+.item .content{
+    position: absolute;
+}
