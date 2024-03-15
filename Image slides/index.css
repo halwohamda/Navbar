@@ -89,3 +89,6 @@ body{
     opacity: 0;
     animation: animate 1s ease-in-out 1 forwards;
 }
+@keyframes animate{
+    
+}
